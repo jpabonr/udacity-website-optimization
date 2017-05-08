@@ -20,7 +20,7 @@ Access the website here: https://jpabonr.github.io/udacity-website-optimization/
    the last scroll position is stored and the function is managed by rAF.  This known design pattern for handling animations 
    triggered by scroll events was sourced from https://developer.mozilla.org/en-US/docs/Web/Events/scroll.
 
-2. Replaced getElementById with getElementsByClassName to fetch DOM elements faster.
+2. Replaced querySelectorAll with getElementsByClassName to fetch DOM elements faster.
 
 3. Limited the number of pizza images being animated to those visible on screen (from 200 to 30).
 
