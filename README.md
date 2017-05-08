@@ -23,3 +23,6 @@ Access the website here: https://jpabonr.github.io/udacity-website-optimization/
 2. Replaced getElementById with getElementsByClassName to fetch DOM elements faster.
 
 3. Limited the number of pizza images being animated to those visible on screen (from 200 to 30).
+
+4. Regarding the animations related to pizza size slider, size-related calculations that yielded the same value for each pizza 
+   image were taken outside the animation loop (i.e. for-loop).
